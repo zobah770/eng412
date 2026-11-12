@@ -1,4 +1,34 @@
+# Dependencies
 node_modules
+/.pnp
+.pnp.js
+
+# Production build outputs
 dist
+dist-ssr
+*.local
+
+# Firebase
 .firebase
+.firebaserc.bak
+*-serviceAccountKey*.json
+*service-account*.json
+credentials.json
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor & OS files
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
